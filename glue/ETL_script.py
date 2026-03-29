@@ -15,7 +15,7 @@ job         = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
 # ── CONFIG — CHANGE YOUR_NAME BEFORE SAVING ───────────────────────
-YOUR_NAME   = "yourname"    # ← CHANGE THIS to your first name
+YOUR_NAME   = "surajsingh_ridewave"   
 
 SOURCE_PATH = f"s3://s3-de-q1-26/DE-Training/Day10/{YOUR_NAME}/raw/rides/"
 TARGET_PATH = f"s3://s3-de-q1-26/DE-Training/Day10/{YOUR_NAME}/processed/rides/"
